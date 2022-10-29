@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+
+<struts>  
+    <package name="default" extends="struts-default" >  
+          <action name="login" class="com.action.login"></action> 
+          <action name="signup" class="com.action.signup"></action> 
+          <action name="logout" class="com.action.logout"></action> 
+          <action name="home" class="com.action.home">
+              <result name="success">home.jsp</result>
+          </action> 
+          <action name="cities" class="com.action.cities"></action> 
+          <action name="movies" class="com.action.movies"></action> 
+          <action name="addseat" class="com.action.addseat"></action> 
+          <action name="theatres" class="com.action.theatres"></action> 
+          <action name="addticket" class="com.action.addticket"></action> 
+          <action name="tickets" class="com.action.tickets"></action> 
+          <action name="seat" class="com.action.seat"></action> 
+          <action name="bookingDates" class="com.action.bookingDates"></action> 
+          <action name="shows" class="com.action.shows"></action> 
+              
+   </package>  
+</struts>     
+
+
